@@ -4,7 +4,7 @@ Setlocal EnableDelayedExpansion
 :: Scans files matching specified format and overwrites placeholder password with a generated one in all files matching the pattern, creating a new file with prefix ‘pw’
 
 SET _outputprefix=pw
-SET _filename=utoronto_smartorg_users_*.csv
+SET _filename=users_*.csv
 SET _PlaceholderPassword=PassPlaceholder
 SET _PassLen=10
 
